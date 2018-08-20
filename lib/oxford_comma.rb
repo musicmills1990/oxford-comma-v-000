@@ -8,7 +8,7 @@ original_array = array
   elsif array.length == 2
     array.join(" and ")
   elsif array.length >= 3
-    array.pop
-    array.join(", ") << ", and #{original_array.last}"
+    origina_array.pop
+    original_array.join(", ") << ", and #{array.last}"
 end
 end
